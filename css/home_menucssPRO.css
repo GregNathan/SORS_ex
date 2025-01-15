@@ -1,0 +1,119 @@
+body {
+    background-image: url('../img/BackgroundPRO.png'); /* Set the background image */
+    background-attachment: fixed;
+        }
+      
+#logo {
+    background-image: url("../img/FoldericonPRO.png"); /* Path to your folder icon */
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position-x: 22px;
+    background-position-y: 10px;
+}
+
+        
+#titlecard {
+    color: white;
+    padding: 25px;
+    font-size: 50px;
+    font-family: sans-serif, Verdana; 
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-left: 110px;
+    text-shadow: -3px -3px grey;
+        }
+        
+
+        .main-container {
+            display: flex;
+            justify-content: space-between; /* Ensures equal spacing between items */
+            align-items: center;
+            gap: 20px; /* Adds spacing between items */
+            padding: 20px; /* Adds some padding around the container */
+            height: auto; /* Adjusts height dynamically */
+            background: rgba(0, 0, 0, 0.5); /* Retains the semi-transparent background */
+            border-radius: 15px;
+            box-sizing: border-box;
+        }
+        
+
+        .grid-container {
+            display: flex;
+            justify-content: center; /* Centers content */
+            align-items: center;
+            gap: 20px; /* Adds spacing between grid items */
+            width: 100%; /* Makes it span the entire container width */
+        }
+        
+
+        .grid-item {
+            flex: 1;
+            max-width: 300px; /* Sets a max width for each item */
+            min-width: 200px; /* Ensures items don't shrink too much */
+            padding: 15px;
+            text-align: center;
+            color: white;
+            background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+        }
+
+.namediv {
+    display: flex;
+    width: 350px;
+    background-color: white;
+    margin-left: 260px;
+    margin-top: -284px;
+}
+
+.name {
+    display: flex;
+    width: 500px;
+    background-color: white;
+    margin-top: -284px;
+    margin-left: 260px;
+}
+
+.card {
+    display: flex;
+    width: 250px;
+}
+
+#button{  
+    padding: 15px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+#button:hover{
+    background: #03e9f4;
+    color: #050801;
+}    
+
+#idtext {
+    font-family: sans-serif, Verdana;
+    color: #050801;
+    font-weight: bold;
+    font-size: 18px; /* Adjusts font size for better readability */
+}
+.card {
+    flex: 1;
+    max-width: 300px; /* Limits the card width */
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    text-align: left;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    

@@ -1,0 +1,125 @@
+body {
+    background-image: url("../images/Background1.png");
+    background-attachment: fixed;
+}
+
+/* Start logo  */
+#logo {
+    background-image: url("../images/Titleicon.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position-x: 22px;
+    background-position-y: 10px;}
+
+#titlecard{
+    color: white;
+    padding-top: 18px;
+    font-size: 40px;
+    font-family: sans-serif, Verdana; 
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-left: 140px;
+    text-shadow: -3px -3px grey;}
+/* Stop */
+
+/* Start Button Board */
+.head-container {
+    display: flex;
+    width: 95%;
+    background: rgba(0,0,0,.5);
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head-item {
+    flex: 1; 
+    padding: 20px;
+    text-align: center;
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#headbutton{  
+    padding: 15px 20px;
+    background-color: white;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+#headbutton:hover{
+    background: #03e9f4;
+    color: #050801;
+}    
+
+#idtext {
+    font-family: sans-serif, Verdana;
+    color: #050801;
+    font-weight: bold;
+    font-size: 15px;
+}
+/* Stop */
+
+
+/* Start Repository Display */
+.folderContainer {
+    display: block;
+    gap: 16px;
+    width: 95%;
+    background: rgba(0,0,0,.5);
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+#size {
+    width: 50px;
+    cursor: pointer;
+}
+
+.folderTitle{
+    font-family: sans-serif, Verdana; 
+    color: white;
+    cursor: pointer;
+}
+
+.fileTitle { 
+    font-family: sans-serif, Verdana; 
+    color: white;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.folder {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #252525;
+    background-color: #0000007e;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;  
+    border-radius: 15px;
+}
+.file {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: #39393916;
+    padding: 20px; 
+    border: 1px solid #1a1a1a;
+    border-radius: 25px;
+    font-family: sans-serif, Verdana; 
+    color: white;
+    cursor: pointer;
+}
+.folder-content {
+    margin-left: 20px;
+    display: block;
+    gap: 10px;
+}
+/* Stop */
